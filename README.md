@@ -1,5 +1,6 @@
 # some of Data Structures & Algorithms
-[Longest Increasing Sequence](https://leetcode.com/problems/longest-increasing-subsequence)
+## [Longest Increasing Sequence](https://leetcode.com/problems/longest-increasing-subsequence)
+
 Step: 
 1. Initialize an Empty Vector (dynamic array): Create an empty vector LIS that will dynamically store the increasing subsequence.
 

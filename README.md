@@ -1,6 +1,6 @@
 # some of Data Structures & Algorithms
 
-## c-stype string functions
+## c-type string functions
 ### [<cctype>](https://cplusplus.com/reference/cctype/): to classify and transform individual characters
 isalpha(c): Check if c is alphabetic 
 isalnum(c): Check if c is alphanumeric

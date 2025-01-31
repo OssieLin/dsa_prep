@@ -43,6 +43,8 @@ isupper(c):	Check if c is uppercase letter <br>
 tolower(c): Convert c to lowercase (if it is uppercase) <br>
 toupper(c): Convert c to uppercase (if it is lowercase) <br>
 
+tolower(c) or toupper(c) returns an integer. To converse it to char, use static_cast<char>(tolower(c)).
+
 
 ## [Longest Increasing Sequence](https://leetcode.com/problems/longest-increasing-subsequence)
 

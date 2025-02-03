@@ -46,6 +46,24 @@ toupper(c): Convert c to uppercase (if it is lowercase) <br>
 **tolower(c) or toupper(c) returns an integer. To converse it to char, use `static_cast<char>(tolower(c))`.**
 
 
+## [Three-Reverse Algorithm: O(n) time & O(1) space](https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/)
+### Leetcode 189. Rotate Array](https://leetcode.com/problems/rotate-array/description/)
+
+`Three-reverse Algorithm: (to rotate array k step to the right)`
+
+`Rotate [1,2,3,4,5,6,7]` <br>
+`1st reverse for the first nums.size()-k: [4,3,2,1,5,6,7]` <br>
+`2nd reverse for the last k numbers: [4,3,2,1,7,6,5]` <br>
+`3rd reverse all: [5,6,7,1,2,3,4]`<br>
+
+        k = k % nums.size();
+        reverse(nums.begin(), nums.end()-k);
+        reverse(nums.end()-k, nums.end());
+        reverse(nums.begin(), nums.end());
+
+
+
+
 ## [Longest Increasing Sequence](https://leetcode.com/problems/longest-increasing-subsequence)
 
 Step: 

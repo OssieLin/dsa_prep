@@ -46,8 +46,8 @@ toupper(c): Convert c to uppercase (if it is lowercase) <br>
 **tolower(c) or toupper(c) returns an integer. To converse it to char, use `static_cast<char>(tolower(c))`.**
 
 
-## [Three-Reverse Algorithm](https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/)
-### Leetcode 189. Rotate Array](https://leetcode.com/problems/rotate-array/description/)
+## [Three-Reverse Algorithm: O(n) time & O(1) space](https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/)
+### [Leetcode 189. Rotate Array](https://leetcode.com/problems/rotate-array/description/)
 
 `Three-reverse Algorithm: (to rotate array k step to the right)`
 

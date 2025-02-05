@@ -47,10 +47,9 @@ toupper(c): Convert c to uppercase (if it is lowercase) <br>
 
 
 ## [Three-Reverse Algorithm: O(n) time & O(1) space](https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/)
+`To rotate array k steps to the right, where k equals 3 in this example`
+
 ### [Leetcode 189. Rotate Array](https://leetcode.com/problems/rotate-array/description/)
-
-`Three-reverse Algorithm: (to rotate array k steps to the right, where k equals 3 in this example)`
-
 `Rotate [1,2,3,4,5,6,7]` <br>
 `1st reverse for the first nums.size()-k: [4,3,2,1,5,6,7]` <br>
 `2nd reverse for the last k numbers: [4,3,2,1,7,6,5]` <br>

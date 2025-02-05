@@ -61,7 +61,7 @@ toupper(c): Convert c to uppercase (if it is lowercase) <br>
         reverse(nums.end()-k, nums.end());
         reverse(nums.begin(), nums.end());
 
-
+which is essentially the `std::rotate` provided by algorithm: `rotate(nums.begin(), nums.end()-k, nums.end())`
 
 
 ## [Longest Increasing Sequence](https://leetcode.com/problems/longest-increasing-subsequence)

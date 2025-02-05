@@ -49,7 +49,7 @@ toupper(c): Convert c to uppercase (if it is lowercase) <br>
 ## [Three-Reverse Algorithm: O(n) time & O(1) space](https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/)
 ### What it is: An in-place algorithm to rotate array that optimizes time and space.
 
-### [Leetcode 189. Rotate Array](https://leetcode.com/problems/rotate-array/description/)
+### [Leetcode 189. Rotate Array:](https://leetcode.com/problems/rotate-array/description/)
 `Rotate [1,2,3,4,5,6,7]` <br>
 `To rotate array k steps to the right, where k equals 3 in this example` <br>
 `1st reverse for the first nums.size()-k: [4,3,2,1,5,6,7]` <br>
@@ -65,6 +65,16 @@ toupper(c): Convert c to uppercase (if it is lowercase) <br>
 
 
 ## [Longest Increasing Sequence](https://leetcode.com/problems/longest-increasing-subsequence)
+### What it is: A subsequence of a given sequence in which the subsequence's elements are sorted in an ascending order and in which the subsequence is as long as possible.
+e.g. <br>
+`given [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]` <br>
+`the LIS is not exclusive: 
+        [0, 2, 6, 9, 11, 15] 
+        [0, 4, 6, 9, 11, 15] 
+        [0, 2, 6, 9, 13, 15] 
+        [0, 4, 6, 9, 13, 15]
+`
+
 
 Step: 
 1. Initialize an Empty Vector (dynamic array): Create an empty vector LIS that will dynamically store the increasing subsequence.

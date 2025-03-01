@@ -17,7 +17,7 @@
   - Adjacency list: array "Adj" of size V
     - each element is a pointer to linked lists
     - each vertex Adj[u] stores its neighbors
-    - time: theta(V+E)
+    - space: theta(V+E)
   - Implicit representation:
     - Adj(u) is a function
     - v.neighbor() is a method

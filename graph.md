@@ -28,4 +28,5 @@
   - time: O(V+E)
   - look at nodes reachable in 0 moves (s), in 1 move (Adj[s]), ......
   - careful to avoid duplicates
+  - for finding shortest paths
   

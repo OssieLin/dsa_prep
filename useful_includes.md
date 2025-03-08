@@ -10,7 +10,7 @@
 
 **`tolower(c)` or `toupper(c)` returns an integer. To converse it to char, use `static_cast<char>(tolower(c))`.**
 
-## #include <cstring>
+## #include <[cstring](https://cplusplus.com/reference/cstring/)>
 `memset(ptr, value, num)`: Sets the first num bytes of the block of memory pointed by ptr to the specified value (interpreted as an unsigned char).
 to set all elements to **0 or -1** in an array <br>
 `int a[6]; 

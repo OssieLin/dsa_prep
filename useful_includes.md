@@ -12,6 +12,6 @@
 
 ## #include <cstring>
 `memset(ptr, value, num)`: Sets the first num bytes of the block of memory pointed by ptr to the specified value (interpreted as an unsigned char).
-to set all elements to a in an array <br>
+to set all elements to **0 or -1** in an array <br>
 `int a[6]; 
-memset(a, 1. sizeof(a)); `
+memset(a, -1, sizeof(a)); `

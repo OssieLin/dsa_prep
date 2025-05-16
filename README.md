@@ -1,5 +1,5 @@
 # some of Data Structures & Algorithms
-- check [notes]() for more
+- check [notes](https://github.com/OssieLin/dsa_prep/blob/main/notes.md) for more
 - resources:<br/>
 [Algorithms Lab](https://hackmd.io/@arthurzllu/SkZBc7GoI) <br/>
 [Princeton's Algorithm](https://algs4.cs.princeton.edu/lectures/keynote/)

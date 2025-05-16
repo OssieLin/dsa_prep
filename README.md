@@ -1,4 +1,5 @@
 # some of Data Structures & Algorithms
+- check [notes]() for more
 - resources:<br/>
 [Algorithms Lab](https://hackmd.io/@arthurzllu/SkZBc7GoI) <br/>
 [Princeton's Algorithm](https://algs4.cs.princeton.edu/lectures/keynote/)

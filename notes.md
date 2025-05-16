@@ -2,7 +2,7 @@
 - the following notes are taken from the Algorithms Lab offered by NTU information training system
 
 ## Array
-- Why is the first element of arrays starting from the array index 0? <br/>
+- Why is the first element of arrays starting from index 0? <br/>
 -> It implies how arrays are continuous and that each index represents the offset from the start.
 A[3] → 3 is the offset from the start
 

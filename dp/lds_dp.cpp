@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-	vector<int> v = {1,3,5,2,1};
+	vector<int> v = {9,4,3,2,10};
 	vector<int> lds(v.size(), 1);
 
 	// each index i of lds is the
@@ -16,5 +16,10 @@ int main(){
 		}
 	}
 
-	cout << "Length of LDS: " << lds[v.size()-1];
+
+	auto it = max_element(lds.begin(), lds.end());
+	cout << "Length of LDS: " << *it;
+	cout << endl;
+
+	for(int x: lds) cout << x << " ";
 }

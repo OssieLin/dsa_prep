@@ -12,6 +12,10 @@ int main(){
 			if(v[j] > v[i]) lis[i] = max(lis[i], lis[j]+1);
 		}
 	}
+	
+	auto it = max_element(lis.begin(), lis.end());
+	cout << "Length of LIS: " << *it;
+	cout << endl;
 
-	cout << "Length of LIS: " << lis[1];
+	for(int x: lis) cout << x << " ";
 }

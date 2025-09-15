@@ -18,8 +18,8 @@ vector<vector<int>> pfs(vector<vector<int>>& v){
 	return p;
 }
 
-int sum_query(vector<vector<int>>& p, int r, int c){
-	return p[r+1][c+1];
+int sum_query(vector<vector<int>>& p, int r1, int c1, int r2, int c2){
+	return p[r2+1][c2+1] - p[r1][c1+1] - p[r1+1][c1] + p[r1][c1];
 }
 
 int main(){
@@ -55,6 +55,17 @@ int main(){
 	}
 	
 	cout << endl;
-	cout << "Sum from (0,0) to (3,3) is " << sum_query(p, 3, 3);
+	int r1, c1, r2, c2;
+	cout << "Choose r1, c1, r2, and c2 to see the submatrix sum: " << endl;
+	cout << "r1: ";
+	cin >> r1;
+	cout << "c1: ";
+	cin >> c1;
+	cout << "r2: ";
+	cin >> r2;
+	cout << "c2: ";
+	cin >> c2;
+	cout << "Sum from (" << r1 << "," << c1 << ") to (" << r2 << "," << c2 << ")is " << sum_query(p, r1, c1, r2, c2);
+
 	
 }
